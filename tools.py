@@ -12,7 +12,7 @@ from PIL import Image
 
 
 class Algorithms:
-    """Mathematical functions."""
+    """Maths."""
 
     def __init__(self, pattern, w, h, scale):
         self.pattern = pattern
