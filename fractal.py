@@ -29,7 +29,7 @@ args = parser.parse_args()
 # Default parameters.
 default_pattern = "Julia"
 default_width, default_height = 1200, 900
-default_scale = 1
+default_scale = 3
 default_save = False
 
 if __name__ == "__main__":

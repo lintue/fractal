@@ -1,4 +1,4 @@
-![Julia](media/julia.png)
+![Julia](media/julia-1.png)
 
 # APOTHEOSIS: An Introduction to Algorithms and Complexity Through Fractal Geometry
 
