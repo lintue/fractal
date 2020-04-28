@@ -21,7 +21,7 @@ class Algorithms:
         self.scale = scale
 
     def heuristic(self):
-        """Heuristic for determining algorithm."""
+        """Determine algorithm."""
 
         patterns = ["julia", "Julia", "JULIA",
                     "abc", "Abc", "ABC",
@@ -30,7 +30,7 @@ class Algorithms:
         if self.pattern in patterns:
             if self.pattern in patterns[0: 2]:
                 image = Algorithms.julia(self)
-            # elif self.pattern is b:
+            # elif self.pattern in patterns[3: 5]:
             #   image = Algorithms.b(self)
             # etc.
             else:

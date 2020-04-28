@@ -33,7 +33,7 @@ default_scale = 3
 default_save = False
 
 if __name__ == "__main__":
-    """Heuristic for determining parameters."""
+    """Determine parameters."""
 
     # Greeting.
     # DISCLAIMER: text decoration tested only on Mac OS.
@@ -72,7 +72,7 @@ if __name__ == "__main__":
         w, h = default_width, default_height
         print("Falling on default dimensions:", w, "x", h, "px")
 
-    # TO DO: TEST MIN AND MAX VALUES + POSSIBLY IMPLEMENT ERROR MSGS.
+    # TO DO: TEST MIN/MAX VALUES + IMPLEMENT ERROR MSGS.
     if args.scale:
         scale = args.scale
         print("Scale factor:", args.scale)
