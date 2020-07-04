@@ -1,13 +1,63 @@
 ![Julia](media/julia-1.png)
 
-# APOTHEOSIS: An Introduction to Algorithms and Complexity Through Fractal Geometry
+# APOTHEOSIS: A Simple Program for Creating Fractals
 
-A simple program for creating fractals. URL: *tbc*.
+### CONTEXT
 
-### Context
+TO DO. To put it simply, I would like to develop an easy-to-use program for creating fractals -- an intuitive experience through which to learn about fractal geometry and emergent complexity.
 
-TO DO. Axioms. Knowledge representation. Modelling nature. Playing God. Emergence. Yada yada.
+### IMPLEMENTATION
 
-### Program
+Currently building basic functionality.
 
-Currently implementing basic functionality in Python (3.6). Once I have everything running, I will start devising an application for the browser. To put it simply, the idea is to create an intuitive experience for its user to learn about algorithmic systems, bias and emergent complexity.
+TO DO: add various sets; GIF output; image post-process tools; browser implementation.
+
+### INSTALLATION
+
+Clone repository:
+
+```
+git clone https://github.com/pixel-tree/apotheosis.git
+```
+
+Create virtualenv/pipenv install:
+
+e.g.
+
+```
+cd apotheosis
+virtualenv -p python3.6 .
+source ./bin/activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+### USE
+
+Run program:
+
+```
+python fractal.py --pattern i --dimensions X Y --scale j --save True/False
+```
+
+Arguments (optional):
+
+--pattern, -p
+
+*String. Julia is currently the only available set.*
+
+--dimensions, -d
+
+*Two arguments. Integers. E.g. 1200 900.*
+
+--scale, -s
+
+*Integer. Try 1-10.*
+
+--save, -w
+
+*Boolean. True/False.*.
