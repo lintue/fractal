@@ -4,7 +4,7 @@
 
 ### CONTEXT
 
-TO DO. To put it simply, I would like to develop an easy-to-use program for creating fractals -- an intuitive experience through which to learn about fractal geometry and emergent complexity.
+TO DO. To put simply, I would like to develop an easy-to-use program for creating fractals -- an intuitive experience through which to learn about fractal geometry and emergent complexity.
 
 ### IMPLEMENTATION
 
@@ -20,7 +20,7 @@ Clone repository:
 git clone https://github.com/pixel-tree/apotheosis.git
 ```
 
-Create virtualenv/pipenv install:
+Create virtualenv:
 
 e.g.
 
@@ -60,4 +60,4 @@ Arguments (optional):
 
 --save, -w
 
-*Boolean. True/False.*.
+*Boolean. True/False.*
