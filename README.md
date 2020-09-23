@@ -1,10 +1,6 @@
 ![Julia](media/julia-1.png)
 
-# APOTHEOSIS: A Simple Program for Creating Fractals
-
-### CONTEXT
-
-TO DO. To put simply, my intention is to develop a simple program for creating fractals -- an intuitive tool with which to learn about fractal geometry and emergent complexity.
+# APOTHEOSIS: A Program for Creating Fractals
 
 ### IMPLEMENTATION
 
@@ -20,7 +16,7 @@ Clone repository:
 git clone https://github.com/pixel-tree/apotheosis.git
 ```
 
-Create virtualenv:
+Virtualenv:
 
 e.g.
 
