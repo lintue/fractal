@@ -2,29 +2,7 @@
 
 # APOTHEOSIS: A Program for Creating Fractals
 
-### IMPLEMENTATION
-
-Currently building basic functionality.
-
-TO DO: add more sets; GIF output; image post-processing tools; browser implementation.
-
 ### INSTALLATION
-
-Clone repository:
-
-```
-git clone https://github.com/pixel-tree/apotheosis.git
-```
-
-Virtualenv:
-
-e.g.
-
-```
-cd apotheosis
-virtualenv -p python3.6 .
-source ./bin/activate
-```
 
 Install dependencies:
 
