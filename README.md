@@ -1,6 +1,6 @@
 ![Julia](media/julia-1.png)
 
-# APOTHEOSIS: A Program for Creating Fractals
+# A Simple Program for Producing Fractals
 
 ### INSTALLATION
 
